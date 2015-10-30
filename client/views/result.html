@@ -1,0 +1,44 @@
+<!-- Flight search form start-->
+<div class="row search-form-container" class="" ng-controller="bookingController">
+   <div class="col-md-6">
+      <h1 style="color:white;">Book Flight Tickets</h1>
+      <form name="flight-search" ng-submit="searchFlight()">
+         <div style="color:white;">From:</div>
+         <input type="text" placeholder="Enter Origin Airport" ng-model="originAirport" typeahead-min-length="2" uib-typeahead="state for state in states | filter:$viewValue | limitTo:8" class="form-control" required/>
+         <div style="color:white;">To:</div>
+         <input type="text" placeholder="Enter Destination Airport" ng-model="destAirport" typeahead-min-length="2" uib-typeahead="state for state in states | filter:$viewValue | limitTo:8" class="form-control" required/>
+         <div style="color:white;">Select Date:</div>
+         <input type="date" ng-model="flightDate" id="trv-date" name="trv-date" class="form-control" required/>
+         <div style="color:white;">Enter Number of Passenger:</div>
+         <span class="form-control" style="width:100px;float:left;display:inline;" ng-click="incrementPassengerCount()">+1</span>
+         <input type="number" ng-model="passengerCount" id="no-passenger" min="1" name="no-passenger" class="form-control" style="width:100px;float:left;display:inline;" required/>
+         <span class="form-control" style="width:100px;float:left;" ng-click="decrementPassengerCount()">-1</span>
+         <div style="clear:both;">
+            <input type="submit" value="Search" class="form-control" /> 
+         </div>
+      </form>
+      <!-- Flight search form end -->
+   </div>
+   <div class="col-md-6">
+      <div class="table-responsive" style="color:white;">
+         <table class="table">
+            <thead>
+               <tr >
+                  <th>#</th>
+                  <th>From</th>
+                  <th>To</th>
+                  <th>Date</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>1</td>
+                  <td>{{searchResult.from}}</td>
+                  <td>{{searchResult.to}}</td>
+                  <td>{{searchResult.date}}</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </div>
+</div>

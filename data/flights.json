@@ -1,0 +1,18 @@
+{"_id":{"$oid":"5632853cb4bea2b679367622"},"from":"AUH","to":"COK","date":"09-05-2015"}
+{"_id":{"$oid":"5632890bb4bea2b679367623"},"from":"AUH","to":"COK","date":"01-05-2015"}
+{"_id":{"$oid":"5632894cb4bea2b679367624"},"from":"AUH","to":"COK","date":"01-05-2015"}
+{"_id":{"$oid":"56333db9dfd8b39db3f7fb54"},"from":"Aberdeen, SD (ABR) ","to":"Dallas/Fort Worth, TX (DFW)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb55"},"from":"Aberdeen, SD (ABR) ","to":"Dallas/Fort Worth, TX (DFW)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb56"},"from":"Abilene, TX (ABI)","to":"Dayton, OH (DAY)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb57"},"from":"Adak Island, AK (ADK)","to":"Daytona Beach, FL (DAB)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb58"},"from":"Akiachak, AK (KKI)","to":"Decatur, IL (DEC)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb59"},"from":"Akiak, AK (AKI)","to":"Deering, AK (DRG)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb5a"},"from":"Akron/Canton, OH (CAK)","to":"Delta Junction, AK (DJN)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb5b"},"from":"Akuton, AK (KQA)","to":"Denver, CO - International (DEN)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb5c"},"from":"Alakanuk, AK (AUK)","to":"Denver, CO - Longmont Bus service (QWM)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb5d"},"from":"Alamogordo, NM (ALM)","to":"Des Moines, IA (DSM)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb5e"},"from":"Alamosa, CO (ALS)","to":"Detroit, MI - All airports (DTT)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb5f"},"from":"Albany, NY (ALB)","to":"Detroit, MI - Metro/Wayne County (DTW)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb60"},"from":"Albany, OR - Bus service (CVO)","to":"Devil's Lake, ND (DVL)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb61"},"from":"Albany, OR - Bus service (QWY)","to":"Dickinson, ND (DIK)","date":"2015-9-23"}
+{"_id":{"$oid":"56333df6dfd8b39db3f7fb62"},"from":"Albuquerque, NM (ABQ)","to":"Dillingham, AK (DLG)","date":"2015-9-23"}
