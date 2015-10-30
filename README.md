@@ -1,6 +1,8 @@
 # Flight searching MEAN.IO test application
-# Developed By : Rajmohan G
-# Date: 30-10-2015
+  
+  Developed By : Rajmohan G
+  
+  Date: 30-10-2015
   
   https://github.com/rajmohang111/flight-booking-app
   
@@ -14,11 +16,11 @@
  
  Using express we are staring the application using following command.
 
- ```
+	```
 	node server
 	```
  
- ```
+  ```
   Application will start running at port 8080
   ```
   
